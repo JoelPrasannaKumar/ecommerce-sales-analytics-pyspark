@@ -1,0 +1,12 @@
+# ─── Core PySpark ────────────────────────────────────────────────────────────
+pyspark==3.5.1
+
+# ─── Data I/O ─────────────────────────────────────────────────────────────────
+pyarrow==15.0.2          # Required for Parquet read/write via PySpark
+pandas==2.2.2            # Helper data operations and CSV exports
+
+# ─── Dataset Generation ───────────────────────────────────────────────────────
+Faker==24.11.0           # Generates realistic fake data (names, cities, dates)
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+numpy==1.26.4            # Numerical operations used in data generation
