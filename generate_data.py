@@ -1,4 +1,4 @@
-"""
+﻿"""
 generate_data.py
 ----------------
 Generates three realistic e-commerce CSV datasets:
@@ -27,18 +27,18 @@ import pandas as pd
 from faker import Faker
 from datetime import datetime, timedelta
 
-# ─── Reproducibility ─────────────────────────────────────────────────────────
+# â”€â”€â”€ Reproducibility â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)
 fake = Faker("en_US")
 Faker.seed(SEED)
 
-# ─── Output directory ─────────────────────────────────────────────────────────
+# â”€â”€â”€ Output directory â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 RAW_DIR = os.path.join(os.path.dirname(__file__), "data", "raw")
 os.makedirs(RAW_DIR, exist_ok=True)
 
-# ─── Constants ────────────────────────────────────────────────────────────────
+# â”€â”€â”€ Constants â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 NUM_CUSTOMERS = 1050
 NUM_PRODUCTS = 520
 NUM_ORDERS = 10_500
@@ -69,7 +69,7 @@ CATEGORIES = [
     "Automotive", "Garden & Tools", "Office Supplies",
 ]
 
-# ─── Helper functions ─────────────────────────────────────────────────────────
+# â”€â”€â”€ Helper functions â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def random_date(start: datetime, end: datetime) -> str:
     """Return a random date string between start and end."""
@@ -93,9 +93,9 @@ def inject_duplicates(df: pd.DataFrame, dup_rate: float = 0.025) -> pd.DataFrame
     return pd.concat([df, dupes], ignore_index=True)
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # 1. CUSTOMERS
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def generate_customers() -> pd.DataFrame:
     print("  Generating customers...")
@@ -131,7 +131,7 @@ def generate_customers() -> pd.DataFrame:
         "registration_date": reg_dates,
     })
 
-    # ── Inject data-quality issues ────────────────────────────────────────────
+    # â”€â”€ Inject data-quality issues â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     df["customer_name"] = inject_nulls(df["customer_name"], null_rate=0.03)
     df["city"]          = inject_nulls(df["city"],          null_rate=0.02)
     df["state"]         = inject_nulls(df["state"],         null_rate=0.02)
@@ -147,13 +147,13 @@ def generate_customers() -> pd.DataFrame:
 
     # Shuffle so duplicates are not all at the end
     df = df.sample(frac=1, random_state=SEED).reset_index(drop=True)
-    print(f"    → {len(df):,} rows (including duplicates)")
+    print(f"    â†’ {len(df):,} rows (including duplicates)")
     return df
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # 2. PRODUCTS
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def _product_name(category: str) -> str:
     """Generate a realistic product name for a given category."""
@@ -233,7 +233,7 @@ def generate_products() -> pd.DataFrame:
         "price":        prices,
     })
 
-    # ── Inject data-quality issues ────────────────────────────────────────────
+    # â”€â”€ Inject data-quality issues â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     df["product_name"] = inject_nulls(df["product_name"], null_rate=0.025)
     df["price"]        = inject_nulls(df["price"],        null_rate=0.03)
 
@@ -244,13 +244,13 @@ def generate_products() -> pd.DataFrame:
 
     df = inject_duplicates(df, dup_rate=0.03)
     df = df.sample(frac=1, random_state=SEED).reset_index(drop=True)
-    print(f"    → {len(df):,} rows (including duplicates)")
+    print(f"    â†’ {len(df):,} rows (including duplicates)")
     return df
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # 3. ORDERS
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def generate_orders(customer_ids: list, product_ids: list) -> pd.DataFrame:
     print("  Generating orders...")
@@ -293,29 +293,29 @@ def generate_orders(customer_ids: list, product_ids: list) -> pd.DataFrame:
         "order_date":  order_dates,
     })
 
-    # ── Inject data-quality issues ────────────────────────────────────────────
+    # â”€â”€ Inject data-quality issues â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     df["discount"]  = inject_nulls(df["discount"],  null_rate=0.05)
     df["quantity"]  = inject_nulls(df["quantity"],  null_rate=0.02)
 
-    # Some negative quantities (invalid — will be filtered in cleaning)
+    # Some negative quantities (invalid â€” will be filtered in cleaning)
     bad_qty_idx = random.sample(range(len(df)), 30)
     for idx in bad_qty_idx:
         df.at[idx, "quantity"] = random.choice([-1, -3, -5, 0])
 
-    # Discount values > 1 (invalid — discount should be 0-1)
+    # Discount values > 1 (invalid â€” discount should be 0-1)
     bad_disc_idx = random.sample(range(len(df)), 20)
     for idx in bad_disc_idx:
         df.at[idx, "discount"] = random.choice([1.5, 2.0, -0.1])
 
     df = inject_duplicates(df, dup_rate=0.025)
     df = df.sample(frac=1, random_state=SEED).reset_index(drop=True)
-    print(f"    → {len(df):,} rows (including duplicates)")
+    print(f"    â†’ {len(df):,} rows (including duplicates)")
     return df
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # MAIN
-# ─────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def main():
     print("\n" + "="*60)
@@ -331,7 +331,7 @@ def main():
 
     orders_df = generate_orders(clean_customer_ids, clean_product_ids)
 
-    # ── Save to CSV ────────────────────────────────────────────────────────────
+    # â”€â”€ Save to CSV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     customers_path = os.path.join(RAW_DIR, "customers.csv")
     products_path  = os.path.join(RAW_DIR, "products.csv")
     orders_path    = os.path.join(RAW_DIR, "orders.csv")
@@ -340,7 +340,7 @@ def main():
     products_df.to_csv(products_path,   index=False)
     orders_df.to_csv(orders_path,       index=False)
 
-    print("\n✅ Datasets saved to data/raw/")
+    print("\nâœ… Datasets saved to data/raw/")
     print(f"   customers.csv : {len(customers_df):>7,} rows")
     print(f"   products.csv  : {len(products_df):>7,} rows")
     print(f"   orders.csv    : {len(orders_df):>7,} rows")
@@ -349,3 +349,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
