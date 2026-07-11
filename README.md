@@ -13,7 +13,7 @@
 
 A **production-quality, end-to-end Data Engineering project** that demonstrates a complete ETL pipeline using **Apache PySpark**. The pipeline ingests raw e-commerce CSV data, performs rigorous cleaning and transformation, computes 13 business KPIs using **Spark SQL** and **Window Functions**, persists results in **Parquet** format, and exports data ready for a **Power BI** dashboard.
 
-This project is designed to replicate the work of an entry-level data engineer at an e-commerce company â€” from raw data ingestion to executive-level business insights.
+This project is designed to replicate the work of an entry-level data engineer at an e-commerce company - from raw data ingestion to executive-level business insights.
 
 ---
 
@@ -21,36 +21,36 @@ This project is designed to replicate the work of an entry-level data engineer a
 
 ```
 Raw CSVs (data/raw/)
-       â”‚
-       â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  01_load_data.py â”‚  SparkSession Â· read.csv Â· schema inspection Â· cache
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 02_data_cleaning.py â”‚  dropDuplicates Â· fillna Â· withColumn Â· filter/where
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼  (Parquet: customers_clean, products_clean, orders_clean)
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 03_transformations.py    â”‚  joins Â· date functions Â· Window Â· repartition
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼  (Parquet: orders_enriched)
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 04_business_analysis.py  â”‚  groupBy Â· agg Â· Spark SQL Â· 13 KPIs
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼  (CSV: output/kpi_*/)
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 05_export_results.py   â”‚  coalesce Â· write.parquet Â· summary report
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  Power BI Desktop â”‚  Star Schema Â· DAX Measures Â· 5 Dashboard Pages
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+       |
+       v
++------------------+
+|  01_load_data.py |  SparkSession - read.csv - schema inspection - cache
++--------+---------+
+         |
+         v
++---------------------+
+| 02_data_cleaning.py |  dropDuplicates - fillna - withColumn - filter/where
++--------+------------+
+         |
+         v  (Parquet: customers_clean, products_clean, orders_clean)
++--------------------------+
+| 03_transformations.py    |  joins - date functions - Window - repartition
++--------+-----------------+
+         |
+         v  (Parquet: orders_enriched)
++--------------------------+
+| 04_business_analysis.py  |  groupBy - agg - Spark SQL - 13 KPIs
++--------+-----------------+
+         |
+         v  (CSV: output/kpi_*/)
++------------------------+
+| 05_export_results.py   |  coalesce - write.parquet - summary report
++--------+---------------+
+         |
+         v
++-------------------+
+|  Power BI Desktop |  Star Schema - DAX Measures - 5 Dashboard Pages
++-------------------+
 ```
 
 ---
@@ -67,7 +67,7 @@ Raw CSVs (data/raw/)
 | Faker | 24.11 | Realistic dataset generation |
 | Power BI Desktop | Latest | Interactive dashboards |
 | Git | Latest | Version control |
-| GitHub | â€” | Remote repository |
+| GitHub | - | Remote repository |
 
 ---
 
@@ -75,42 +75,42 @@ Raw CSVs (data/raw/)
 
 ```
 Ecommerce-Sales-Analytics/
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/                     â† Original CSV files (source of truth)
-â”‚   â”‚   â”œâ”€â”€ customers.csv
-â”‚   â”‚   â”œâ”€â”€ products.csv
-â”‚   â”‚   â””â”€â”€ orders.csv
-â”‚   â”œâ”€â”€ processed/               â† Reserved for intermediate outputs
-â”‚   â””â”€â”€ parquet/                 â† Cleaned and enriched Parquet files
-â”‚       â”œâ”€â”€ customers_clean/
-â”‚       â”œâ”€â”€ products_clean/
-â”‚       â”œâ”€â”€ orders_clean/
-â”‚       â”œâ”€â”€ orders_enriched/
-â”‚       â””â”€â”€ master_enriched_final/
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ 01_load_data.py          â† SparkSession, CSV loading, schema inspection
-â”‚   â”œâ”€â”€ 02_data_cleaning.py      â† Dedup, null handling, validation
-â”‚   â”œâ”€â”€ 03_transformations.py    â† Joins, revenue, date features, window funcs
-â”‚   â”œâ”€â”€ 04_business_analysis.py  â† 13 KPIs, Spark SQL, aggregations
-â”‚   â””â”€â”€ 05_export_results.py     â† CSV/Parquet export, summary report
-â”‚
-â”œâ”€â”€ dashboard/
-â”‚   â””â”€â”€ README_PowerBI.md        â† Step-by-step Power BI build guide
-â”‚
-â”œâ”€â”€ output/                      â† All KPI CSVs and master dataset export
-â”‚   â”œâ”€â”€ kpi_01_total_revenue/
-â”‚   â”œâ”€â”€ kpi_02_monthly_revenue/
-â”‚   â”œâ”€â”€ ...                      â† 13 KPI folders
-â”‚   â”œâ”€â”€ master_orders_enriched/
-â”‚   â””â”€â”€ summary_report.txt
-â”‚
-â”œâ”€â”€ screenshots/                 â† Dashboard and output screenshots
-â”œâ”€â”€ generate_data.py             â† Faker-based dataset generator
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ .gitignore
-â””â”€â”€ README.md
+|
++-- data/
+|   +-- raw/                     <- Original CSV files (source of truth)
+|   |   +-- customers.csv
+|   |   +-- products.csv
+|   |   +-- orders.csv
+|   +-- processed/               <- Reserved for intermediate outputs
+|   +-- parquet/                 <- Cleaned and enriched Parquet files
+|       +-- customers_clean/
+|       +-- products_clean/
+|       +-- orders_clean/
+|       +-- orders_enriched/
+|       +-- master_enriched_final/
+|
++-- src/
+|   +-- 01_load_data.py          <- SparkSession, CSV loading, schema inspection
+|   +-- 02_data_cleaning.py      <- Dedup, null handling, validation
+|   +-- 03_transformations.py    <- Joins, revenue, date features, window funcs
+|   +-- 04_business_analysis.py  <- 13 KPIs, Spark SQL, aggregations
+|   +-- 05_export_results.py     <- CSV/Parquet export, summary report
+|
++-- dashboard/
+|   +-- README_PowerBI.md        <- Step-by-step Power BI build guide
+|
++-- output/                      <- All KPI CSVs and master dataset export
+|   +-- kpi_01_total_revenue/
+|   +-- kpi_02_monthly_revenue/
+|   +-- ...                      <- 13 KPI folders
+|   +-- master_orders_enriched/
+|   +-- summary_report.txt
+|
++-- screenshots/                 <- Dashboard and output screenshots
++-- generate_data.py             <- Faker-based dataset generator
++-- requirements.txt
++-- .gitignore
++-- README.md
 ```
 
 ---
@@ -144,7 +144,7 @@ Three realistic CSV datasets with intentional data quality issues:
 | product_id | String | ~2% orphan references |
 | quantity | Integer | ~2% nulls, 30 negatives |
 | discount | Float | ~5% nulls, 20 out-of-range |
-| order_date | String | 2022â€“2024 range |
+| order_date | String | 2022-2024 range |
 
 ---
 
@@ -188,22 +188,22 @@ set PATH=%JAVA_HOME%\bin;%PATH%
 Run the pipeline modules **in order**:
 
 ```bash
-# Step 1 â€” Generate raw datasets
+# Step 1 - Generate raw datasets
 python generate_data.py
 
-# Step 2 â€” Inspect raw data
+# Step 2 - Inspect raw data
 python src/01_load_data.py
 
-# Step 3 â€” Clean data and save to Parquet
+# Step 3 - Clean data and save to Parquet
 python src/02_data_cleaning.py
 
-# Step 4 â€” Transform, join, add features
+# Step 4 - Transform, join, add features
 python src/03_transformations.py
 
-# Step 5 â€” Compute all 13 KPIs
+# Step 5 - Compute all 13 KPIs
 python src/04_business_analysis.py
 
-# Step 6 â€” Export results and generate summary report
+# Step 6 - Export results and generate summary report
 python src/05_export_results.py
 ```
 
@@ -261,14 +261,14 @@ After running all modules, the `output/` folder will contain 13 KPI CSV files an
 
 ## Business Insights
 
-Based on the generated dataset (2022â€“2024):
+Based on the generated dataset (2022-2024):
 
 - **Electronics and Home & Kitchen** consistently rank as the top revenue-generating categories
-- **Q4 months** (Octoberâ€“December) show the highest monthly revenue â€” consistent with holiday shopping behaviour
+- **Q4 months** (October-December) show the highest monthly revenue - consistent with holiday shopping behaviour
 - **California, Texas, and Florida** account for the largest share of revenue, aligning with population density
-- Approximately **8â€“10% of registered customers** have never placed an order â€” a significant re-engagement opportunity
-- The **Average Order Value** sits around **$200â€“$400**, driven by high-ticket Electronics orders
-- **Monthly Growth Rate** shows positive momentum in 2023â€“2024 with occasional dips in Q1
+- Approximately **8-10% of registered customers** have never placed an order - a significant re-engagement opportunity
+- The **Average Order Value** sits around **$200-$400**, driven by high-ticket Electronics orders
+- **Monthly Growth Rate** shows positive momentum in 2023-2024 with occasional dips in Q1
 
 ---
 
@@ -284,7 +284,7 @@ Five interactive pages powered by exported CSVs:
 | 4. Product Analysis | Top products, category breakdown, never-sold |
 | 5. Regional Analysis | State revenue map and ranking |
 
-â†’ Full build guide: [`dashboard/README_PowerBI.md`](dashboard/README_PowerBI.md)
+-> Full build guide: [`dashboard/README_PowerBI.md`](dashboard/README_PowerBI.md)
 
 ---
 
@@ -309,7 +309,7 @@ Five interactive pages powered by exported CSVs:
 
 ## Resume Description
 
-> **Data Engineer** â€” E-commerce Sales Analytics Pipeline (Python Â· PySpark Â· Spark SQL)
+> **Data Engineer** - E-commerce Sales Analytics Pipeline (Python - PySpark - Spark SQL)
 >
 > - Built an end-to-end ETL pipeline using **PySpark 3.5** that processes **10,000+ orders** across **1,000+ customers** and **500+ products** in standalone Spark mode.
 > - Implemented a multi-stage **data cleaning pipeline** using `dropDuplicates`, `fillna`, `withColumn`, and regex-based normalisation to handle nulls, duplicates, and inconsistent formatting.
@@ -329,5 +329,5 @@ GitHub: [github.com/JoelPrasannaKumar](https://github.com/JoelPrasannaKumar)
 
 ## License
 
-MIT License â€” free to use, modify, and distribute.
+MIT License - free to use, modify, and distribute.
 
