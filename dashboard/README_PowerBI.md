@@ -7,19 +7,19 @@ This guide walks you through connecting Power BI Desktop to the project's export
 > **Prerequisites**
 > - Power BI Desktop installed (free from [microsoft.com/powerbi](https://powerbi.microsoft.com/desktop))
 > - PySpark pipeline has been run and `output/` folder is populated
-> - The `output/master_orders_enriched/` folder contains a `.csv` file
+> - The `output/` folder contains clean `.csv` files like `master_orders_enriched.csv`
 
 ---
 
 ## Step 1 — Connect Power BI to the Data
 
 1. Open **Power BI Desktop**
-2. Click **Home → Get Data → Folder**
+2. Click **Home → Get Data → Text/CSV**
 3. Navigate to the `output/` directory of this project
-4. Click **Combine & Transform Data**
-5. Power BI will auto-detect all CSV files inside subfolders
-6. In the Power Query Editor, keep only rows where the `Source.Name` starts with `part-` (the actual Spark part files)
-7. Promote headers and set correct data types
+4. Select `master_orders_enriched.csv` and click **Load** (or **Transform Data** if you wish to inspect it)
+5. Repeat this process for any of the individual `kpi_*.csv` files you want to visualize as dimension tables.
+
+*(Note: Because we used pandas to export the data in Module 05, the data is already clean, contains headers, and does not require filtering out Spark metadata files like `_SUCCESS` or `part-*`.)*
 
 ### Alternatively (recommended for beginners):
 
@@ -27,14 +27,14 @@ Load each KPI CSV individually:
 
 | Table Name | Source Folder |
 |------------|--------------|
-| `MasterOrders` | `output/master_orders_enriched/` |
-| `MonthlyRevenue` | `output/kpi_02_monthly_revenue/` |
-| `RevenueByState` | `output/kpi_03_revenue_by_state/` |
-| `RevenueByCategory` | `output/kpi_04_revenue_by_category/` |
-| `Top10Customers` | `output/kpi_05_top10_customers/` |
-| `Top10Products` | `output/kpi_06_top10_products/` |
-| `GrowthRate` | `output/kpi_12_monthly_growth_rate/` |
-| `DailyTrend` | `output/kpi_13_daily_sales_trend/` |
+| `MasterOrders` | `output/master_orders_enriched.csv` |
+| `MonthlyRevenue` | `output/kpi_02_monthly_revenue.csv` |
+| `RevenueByState` | `output/kpi_03_revenue_by_state.csv` |
+| `RevenueByCategory` | `output/kpi_04_revenue_by_category.csv` |
+| `Top10Customers` | `output/kpi_05_top10_customers.csv` |
+| `Top10Products` | `output/kpi_06_top10_products.csv` |
+| `GrowthRate` | `output/kpi_12_monthly_growth_rate.csv` |
+| `DailyTrend` | `output/kpi_13_daily_sales_trend.csv` |
 
 ---
 
@@ -200,13 +200,13 @@ Before opening Power BI, confirm these files exist:
 
 ```
 output/
-├── master_orders_enriched/     ← part-*.csv file inside
-├── kpi_02_monthly_revenue/
-├── kpi_03_revenue_by_state/
-├── kpi_04_revenue_by_category/
-├── kpi_05_top10_customers/
-├── kpi_06_top10_products/
-├── kpi_12_monthly_growth_rate/
-├── kpi_13_daily_sales_trend/
+├── master_orders_enriched.csv
+├── kpi_02_monthly_revenue.csv
+├── kpi_03_revenue_by_state.csv
+├── kpi_04_revenue_by_category.csv
+├── kpi_05_top10_customers.csv
+├── kpi_06_top10_products.csv
+├── kpi_12_monthly_growth_rate.csv
+├── kpi_13_daily_sales_trend.csv
 └── summary_report.txt
 ```
