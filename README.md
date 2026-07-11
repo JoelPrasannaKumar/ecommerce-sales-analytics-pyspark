@@ -1,4 +1,4 @@
-﻿# E-commerce Sales Analytics using PySpark
+# E-commerce Sales Analytics using PySpark
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-4.0.0-E25A1C?style=flat&logo=apachespark&logoColor=white)
@@ -161,7 +161,7 @@ Three realistic CSV datasets with intentional data quality issues:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/ecommerce-sales-analytics-pyspark.git
+git clone https://github.com/JoelPrasannaKumar/ecommerce-sales-analytics-pyspark.git
 cd ecommerce-sales-analytics-pyspark
 
 # 2. Create a virtual environment
@@ -323,7 +323,7 @@ Five interactive pages powered by exported CSVs:
 ## Author
 
 **Joel** | Entry-Level Data Engineer  
-GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+GitHub: [github.com/JoelPrasannaKumar](https://github.com/JoelPrasannaKumar)
 
 ---
 
