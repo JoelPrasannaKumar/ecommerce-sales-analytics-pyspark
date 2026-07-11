@@ -1,0 +1,536 @@
+product_id,product_name,category,price
+PROD00118,Car Vacuum Lite 3000,HOME & KITCHEN,843.64
+PROD00133,Toaster Oven Pro 7000,Toys & Games,1283.32
+PROD00155,Resistance Bands Plus 2000,BOOKS,334.84
+PROD00246,LEGO Set Basic 5000,Garden & Tools,1494.25
+PROD00085,Pull-up Bar Basic 2000,Health & Beauty,590.19
+PROD00347,Makeup Brush Set Elite 5000,Sports & Outdoors,1295.31
+PROD00007,Makeup Brush Set Plus 3000,Sports & Outdoors,
+PROD00478,OBD2 Scanner Basic 9000,Books,1306.77
+PROD00183,Stand Mixer Elite 1000,Clothing,259.79
+PROD00056,Model Kit Pro 9000,Clothing,1257.83
+PROD00105,Tennis Racket Pro 9000,office supplies,509.78
+PROD00219,Lawn Mower Blade Pro 4000,Toys & Games,291.23
+PROD00321,Action Camera Lite 4000,Toys & Games,34.59
+PROD00250,Desk Organizer Lite 6000,Automotive,867.58
+PROD00238,Car Vacuum Elite 5000,Clothing,838.65
+PROD00469,Compost Bin Max 3000,Home & Kitchen,1195.1
+PROD00168,OBD2 Scanner Elite 1000,Toys & Games,13.93
+PROD00358,Car Phone Mount Plus 2000,Toys & Games,700.71
+PROD00212,Denim Jacket Plus 8000,Health & Beauty,412.28
+PROD00495,Hiking Backpack Basic 9000,Automotive,1142.29
+PROD00011,Mechanical Keyboard Basic 4000,Books,669.21
+PROD00405,Dumbbell Set Basic 9000,Automotive,221.24
+PROD00149,Sprinkler Head Elite 2000,Health & Beauty,566.94
+PROD00451,USB-C Hub Lite 4000,Toys & Games,216.98
+PROD00003,Knife Set Basic 9000,Clothing,1059.95
+PROD00417,Foam Cleanser Basic 2000,Sports & Outdoors,863.98
+PROD00504,Python for Data Science Max 5000,Toys & Games,261.03
+PROD00186,Building Blocks Plus 8000,Home & Kitchen,1126.46
+PROD00413,Coffee Maker Max 4000,Home & Kitchen,91.12
+PROD00196,Building Blocks Lite 2000,Office Supplies,1076.29
+PROD00515,Yoga Mat Lite 6000,Automotive,829.42
+PROD00484,The Pragmatic Programmer Elite 1000,OFFICE SUPPLIES,530.71
+PROD00502,Athletic Socks Lite 1000,Garden & Tools,600.4
+PROD00353,Stand Mixer Max 4000,Electronics,1495.86
+PROD00159,Raised Bed Kit Max 6000,home & kitchen,558.13
+PROD00230,Monitor Stand Elite 6000,Books,1050.22
+PROD00426,Remote Control Car Elite 7000,Clothing,560.96
+PROD00087,Foam Cleanser Pro 2000,Garden & Tools,334.0
+PROD00078,Car Phone Mount Max 6000,Books,535.27
+PROD00132,Cotton T-Shirt Max 9000,Clothing,280.05
+PROD00090,Cable Management Kit Pro 5000,Home & Kitchen,0.0
+PROD00138,Floor Mats Lite 1000,Home & Kitchen,1206.48
+PROD00031,Bluetooth Speaker Elite 1000,Home & Kitchen,170.98
+PROD00080,Ergonomic Chair Plus 5000,Books,338.2
+PROD00076,Model Kit Basic 7000,Toys & Games,1336.93
+PROD00342,Yoga Pants Max 9000,Toys & Games,912.62
+PROD00010,Monitor Stand Max 7000,Electronics,442.81
+PROD00395,Hiking Backpack Elite 3000,Toys & Games,1297.79
+PROD00209,Weed Puller Lite 9000,Electronics,1233.81
+PROD00074,Python for Data Science Plus 4000,Office Supplies,34.57
+PROD00210,Cable Management Kit Basic 1000,Health & Beauty,991.3
+PROD00445,Yoga Mat Lite 4000,Clothing,737.49
+PROD00433,Blender Elite 7000,Books,545.93
+PROD00437,Sunscreen SPF50 Lite 7000,Garden & Tools,-99.99
+PROD00079,Garden Hose Pro 2000,Garden & Tools,163.38
+PROD00071,Bluetooth Speaker Lite 9000,Sports & Outdoors,775.3
+PROD00205,Pull-up Bar Basic 3000,Toys & Games,286.74
+PROD00073,Toaster Oven Elite 1000,Toys & Games,130.82
+PROD00288,Floor Mats Lite 5000,AUTOMOTIVE,897.69
+PROD00354,The Pragmatic Programmer Pro 3000,Sports & Outdoors,50.85
+PROD00245,Jump Rope Elite 9000,sports & outdoors,1352.03
+PROD00173,Stand Mixer Plus 9000,CLOTHING,1151.16
+PROD00102,Cotton T-Shirt Plus 3000,Toys & Games,178.39
+PROD00193,Stand Mixer Elite 2000,Home & Kitchen,950.78
+PROD00514,Machine Learning Basics Basic 3000,Electronics,58.15
+PROD00493,Coffee Maker Lite 8000,Clothing,705.29
+PROD00141,Bluetooth Speaker Pro 4000,Electronics,0.0
+PROD00235,Trekking Poles Pro 9000,Office Supplies,56.3
+PROD00077,Hair Dryer Basic 3000,Automotive,366.85
+PROD00427,,Sports & Outdoors,297.57
+PROD00168,OBD2 Scanner Elite 1000,Toys & Games,13.93
+PROD00303,Knife Set Basic 3000,Clothing,1018.22
+PROD00069,Plant Pots Elite 8000,HEALTH & BEAUTY,1079.79
+PROD00091,Portable Charger Max 7000,CLOTHING,627.16
+PROD00064,SQL Performance Tuning Plus 4000,Toys & Games,1042.75
+PROD00341,Wireless Earbuds Elite 6000,Electronics,132.33
+PROD00454,Cloud Architecture Patterns Plus 2000,Home & Kitchen,422.28
+PROD00312,Sneakers Plus 3000,Books,239.36
+PROD00443,Air Fryer Lite 1000,Home & Kitchen,854.17
+PROD00034,System Design Interview Basic 9000,Health & Beauty,379.43
+PROD00083,Knife Set Basic 7000,Electronics,372.55
+PROD00480,Stapler Max 6000,office supplies,943.22
+PROD00001,4K Smart TV Max 1000,Toys & Games,947.58
+PROD00012,Winter Coat Max 6000,Clothing,38.73
+PROD00453,Coffee Maker Elite 7000,ELECTRONICS,282.78
+PROD00023,Stand Mixer Elite 7000,Health & Beauty,244.27
+PROD00477,Foam Cleanser Plus 9000,Office Supplies,6.97
+PROD00094,Machine Learning Basics Elite 5000,Toys & Games,1046.46
+PROD00177,Electric Toothbrush Pro 1000,Books,1205.68
+PROD00174,Atomic Habits Plus 6000,Office Supplies,878.06
+PROD00482,,Health & Beauty,233.15
+PROD00248,Jump Starter Basic 6000,Toys & Games,1268.23
+PROD00019,Sprinkler Head Basic 3000,CLOTHING,1148.06
+PROD00229,Pruning Shears Elite 5000,Clothing,138.04
+PROD00317,Shampoo & Conditioner Elite 1000,Clothing,686.02
+PROD00016,Card Game Basic 9000,Office Supplies,739.69
+PROD00434,Deep Work Lite 3000,Garden & Tools,1290.52
+PROD00040,Notebook Set Elite 8000,Home & Kitchen,1185.19
+PROD00518,Car Phone Mount Basic 5000,Clothing,246.05
+PROD00282,Yoga Pants Elite 7000,Clothing,1486.06
+PROD00047,Essential Oil Set Lite 9000,Electronics,1412.02
+PROD00094,Machine Learning Basics Elite 5000,Toys & Games,1046.46
+PROD00323,Knife Set Basic 3000,Clothing,916.88
+PROD00376,Remote Control Car Lite 1000,Books,226.02
+PROD00369,Raised Bed Kit Basic 1000,Books,112.12
+PROD00011,Mechanical Keyboard Basic 4000,Books,669.21
+PROD00385,Yoga Mat Pro 6000,Home & Kitchen,353.35
+PROD00285,Resistance Bands Max 8000,Toys & Games,1062.84
+PROD00348,Car Vacuum Basic 9000,Sports & Outdoors,1329.81
+PROD00441,USB-C Hub Lite 8000,Clothing,1427.45
+PROD00422,Athletic Socks Lite 9000,Health & Beauty,809.8
+PROD00150,Monitor Stand Lite 7000,Toys & Games,1206.89
+PROD00193,Stand Mixer Elite 2000,Home & Kitchen,950.78
+PROD00511,Portable Charger Elite 1000,Toys & Games,767.71
+PROD00366,Action Figure Plus 5000,Garden & Tools,1407.31
+PROD00181,LED Monitor Elite 2000,Home & Kitchen,932.98
+PROD00239,Lawn Mower Blade Max 8000,Office Supplies,64.23
+PROD00408,OBD2 Scanner Lite 6000,Home & Kitchen,734.81
+PROD00070,Desk Organizer Pro 5000,Automotive,1100.2
+PROD00377,Vitamin D Supplement Pro 4000,Health & Beauty,1459.77
+PROD00319,Pruning Shears Pro 5000,Office Supplies,1257.02
+PROD00185,Jump Rope Pro 9000,Toys & Games,1336.26
+PROD00466,,home & kitchen,135.99
+PROD00154,Deep Work Plus 8000,Electronics,485.81
+PROD00447,Protein Powder Elite 9000,Sports & Outdoors,349.35
+PROD00226,Building Blocks Lite 7000,Electronics,1168.36
+PROD00125,Dumbbell Set Pro 9000,Books,1255.15
+PROD00374,Deep Work Elite 2000,Office Supplies,156.85
+PROD00375,Cycling Helmet Max 5000,OFFICE SUPPLIES,256.22
+PROD00491,Bluetooth Speaker Elite 3000,Garden & Tools,361.78
+PROD00156,Model Kit Basic 5000,SPORTS & OUTDOORS,529.67
+PROD00424,Atomic Habits Pro 4000,Home & Kitchen,1484.23
+PROD00355,Yoga Mat Elite 1000,Health & Beauty,1346.65
+PROD00290,Whiteboard Pro 3000,Office Supplies,1394.12
+PROD00471,Portable Charger Elite 1000,Home & Kitchen,1011.1
+PROD00463,Toaster Oven Pro 6000,Automotive,565.57
+PROD00409,Weed Puller Basic 6000,Automotive,128.9
+PROD00421,Smart Watch Basic 1000,Clothing,474.92
+PROD00020,,CLOTHING,618.04
+PROD00363,Rice Cooker Pro 3000,Garden & Tools,1463.15
+PROD00057,Electric Toothbrush Max 9000,GARDEN & TOOLS,1288.98
+PROD00391,Smart Watch Basic 3000,Health & Beauty,320.49
+PROD00266,Doll House Elite 1000,Automotive,851.86
+PROD00362,Hooded Sweatshirt Basic 1000,Home & Kitchen,
+PROD00512,Running Shoes Plus 9000,Sports & Outdoors,754.9
+PROD00365,Dumbbell Set Elite 8000,Sports & Outdoors,1279.7
+PROD00026,LEGO Set Max 3000,Clothing,283.35
+PROD00275,Tennis Racket Lite 6000,Toys & Games,1256.65
+PROD00043,Instant Pot Lite 8000,Sports & Outdoors,1429.5
+PROD00333,Coffee Maker Max 5000,Books,419.85
+PROD00305,Pull-up Bar Basic 7000,Health & Beauty,1412.88
+PROD00294,Atomic Habits Lite 6000,Sports & Outdoors,1493.46
+PROD00302,Denim Jacket Max 5000,Health & Beauty,1014.12
+PROD00127,Foam Cleanser Plus 1000,Clothing,1265.92
+PROD00272,Polo Shirt Lite 5000,Sports & Outdoors,937.86
+PROD00357,Protein Powder Plus 8000,Office Supplies,
+PROD00032,Polo Shirt Max 2000,Health & Beauty,438.04
+PROD00114,Cloud Architecture Patterns Plus 6000,Toys & Games,33.07
+PROD00496,Remote Control Car Plus 9000,Clothing,236.8
+PROD00372,Hooded Sweatshirt Max 5000,Office Supplies,706.84
+PROD00483,Rice Cooker Plus 6000,Garden & Tools,690.73
+PROD00058,Car Wax Kit Max 2000,Electronics,1124.03
+PROD00228,Car Wax Kit Pro 2000,Health & Beauty,
+PROD00025,Yoga Mat Elite 2000,Health & Beauty,111.3
+PROD00018,OBD2 Scanner Basic 5000,Automotive,163.45
+PROD00211,Gaming Laptop Max 1000,Health & Beauty,1195.57
+PROD00067,Protein Powder Elite 5000,Electronics,252.93
+PROD00223,Stand Mixer Plus 1000,Garden & Tools,401.35
+PROD00407,Shampoo & Conditioner Elite 3000,Health & Beauty,414.81
+PROD00438,Jump Starter Basic 6000,Books,1145.09
+PROD00178,LED Headlights Elite 9000,Toys & Games,779.89
+PROD00095,Resistance Bands Lite 6000,Clothing,1055.0
+PROD00181,LED Monitor Elite 2000,Home & Kitchen,932.98
+PROD00401,Portable Charger Pro 9000,Clothing,1206.87
+PROD00024,Deep Work Lite 7000,Garden & Tools,245.72
+PROD00262,Athletic Socks Lite 8000,Clothing,200.33
+PROD00350,Standing Desk Plus 3000,Electronics,0.0
+PROD00508,Dash Camera Lite 8000,Toys & Games,768.8
+PROD00006,Model Kit Max 8000,Electronics,976.08
+PROD00117,Vitamin D Supplement Basic 7000,Sports & Outdoors,714.53
+PROD00046,Board Game Max 1000,Clothing,761.41
+PROD00479,Raised Bed Kit Plus 2000,Toys & Games,1190.13
+PROD00300,Paper Shredder Basic 9000,Automotive,85.69
+PROD00017,Vitamin D Supplement Plus 4000,Garden & Tools,1391.09
+PROD00506,Puzzle Set Basic 7000,Toys & Games,311.44
+PROD00456,Doll House Basic 2000,Automotive,279.15
+PROD00004,Clean Code Max 1000,Office Supplies,644.83
+PROD00473,Coffee Maker Max 9000,Health & Beauty,331.99
+PROD00299,Soil Tester Lite 6000,Books,892.17
+PROD00061,USB-C Hub Plus 9000,Electronics,245.58
+PROD00111,4K Smart TV Lite 2000,clothing,311.24
+PROD00349,Compost Bin Max 4000,Garden & Tools,299.79
+PROD00461,4K Smart TV Plus 1000,Automotive,859.45
+PROD00030,Desk Lamp Pro 5000,Books,1029.58
+PROD00219,Lawn Mower Blade Pro 4000,Toys & Games,291.23
+PROD00197,Electric Toothbrush Max 5000,OFFICE SUPPLIES,410.78
+PROD00027,Face Moisturizer Basic 1000,Garden & Tools,998.33
+PROD00008,Tire Inflator Pro 7000,Office Supplies,101.62
+PROD00182,Denim Jacket Max 3000,Garden & Tools,1114.92
+PROD00494,SQL Performance Tuning Pro 6000,Office Supplies,702.64
+PROD00109,Fertilizer Bag Max 6000,Books,591.43
+PROD00038,Seat Cushion Elite 1000,OFFICE SUPPLIES,534.55
+PROD00158,Tire Inflator Lite 2000,Office Supplies,108.65
+PROD00510,Desk Lamp Plus 9000,BOOKS,1366.43
+PROD00119,Sprinkler Head Max 8000,Health & Beauty,944.86
+PROD00115,Jump Rope Max 3000,Books,1190.37
+PROD00339,Lawn Mower Blade Lite 1000,Garden & Tools,53.42
+PROD00204,Atomic Habits Elite 6000,Clothing,763.54
+PROD00176,Remote Control Car Max 7000,Toys & Games,1129.1
+PROD00221,Wireless Earbuds Elite 9000,Home & Kitchen,332.75
+PROD00396,Model Kit Lite 6000,Toys & Games,237.45
+PROD00145,Dumbbell Set Basic 9000,Clothing,1452.28
+PROD00195,Hiking Backpack Basic 6000,Electronics,714.03
+PROD00403,Air Fryer Elite 6000,Clothing,-99.99
+PROD00415,Foam Roller Elite 5000,Home & Kitchen,690.89
+PROD00232,Athletic Socks Plus 8000,Garden & Tools,651.92
+PROD00509,Fertilizer Bag Elite 2000,clothing,924.99
+PROD00256,Remote Control Car Plus 6000,Office Supplies,1211.15
+PROD00488,LED Headlights Basic 6000,Automotive,65.84
+PROD00142,Cargo Shorts Lite 7000,Office Supplies,1316.75
+PROD00399,Soil Tester Max 5000,Books,457.8
+PROD00068,Car Phone Mount Elite 6000,Garden & Tools,8.97
+PROD00249,Pruning Shears Elite 3000,Electronics,378.01
+PROD00169,Compost Bin Pro 4000,Office Supplies,1207.9
+PROD00189,Lawn Mower Blade Plus 2000,Home & Kitchen,898.14
+PROD00292,Hooded Sweatshirt Basic 2000,Toys & Games,794.34
+PROD00430,Whiteboard Basic 2000,office supplies,741.89
+PROD00251,Bluetooth Speaker Elite 5000,Sports & Outdoors,106.47
+PROD00194,Deep Work Pro 7000,Sports & Outdoors,239.77
+PROD00082,Winter Coat Max 7000,Garden & Tools,913.97
+PROD00110,Paper Shredder Plus 4000,Automotive,1344.13
+PROD00276,,Garden & Tools,931.56
+PROD00146,Puzzle Set Basic 5000,Home & Kitchen,105.44
+PROD00093,Toaster Oven Plus 3000,Garden & Tools,814.1
+PROD00153,Knife Set Elite 1000,Health & Beauty,841.22
+PROD00258,Dash Camera Basic 8000,Garden & Tools,1496.45
+PROD00429,Plant Pots Basic 9000,Clothing,1114.0
+PROD00273,Blender Elite 5000,clothing,1144.87
+PROD00389,Sprinkler Head Max 4000,Home & Kitchen,1012.94
+PROD00084,Machine Learning Basics Lite 1000,Electronics,92.24
+PROD00104,System Design Interview Pro 3000,Books,181.09
+PROD00166,LEGO Set Plus 5000,Toys & Games,994.55
+PROD00164,Clean Code Basic 9000,Home & Kitchen,18.49
+PROD00200,Whiteboard Plus 7000,office supplies,366.79
+PROD00452,Yoga Pants Lite 5000,clothing,858.88
+PROD00075,,Office Supplies,253.62
+PROD00337,Sunscreen SPF50 Lite 8000,Automotive,536.25
+PROD00269,Plant Pots Max 6000,HEALTH & BEAUTY,352.63
+PROD00513,Non-stick Pan Lite 8000,Toys & Games,81.05
+PROD00120,Desk Organizer Lite 5000,Garden & Tools,1034.81
+PROD00306,Board Game Pro 3000,Garden & Tools,256.02
+PROD00326,Card Game Max 8000,Books,1205.39
+PROD00278,Seat Cushion Max 5000,Office Supplies,939.16
+PROD00387,Hair Dryer Plus 8000,Sports & Outdoors,389.15
+PROD00509,Fertilizer Bag Elite 2000,clothing,924.99
+PROD00398,Tire Inflator Pro 9000,Electronics,729.89
+PROD00279,Lawn Mower Blade Plus 3000,health & beauty,1297.45
+PROD00442,Hooded Sweatshirt Max 1000,Office Supplies,268.17
+PROD00322,Yoga Pants Basic 5000,Sports & Outdoors,1169.97
+PROD00418,Car Phone Mount Plus 8000,OFFICE SUPPLIES,1002.81
+PROD00298,OBD2 Scanner Elite 9000,Clothing,1074.35
+PROD00037,Essential Oil Set Max 7000,Clothing,539.18
+PROD00140,Standing Desk Lite 6000,Automotive,309.98
+PROD00254,System Design Interview Basic 4000,Toys & Games,493.99
+PROD00520,Stapler Plus 3000,Books,676.85
+PROD00060,Paper Shredder Lite 6000,Home & Kitchen,918.15
+PROD00112,Yoga Pants Lite 8000,Sports & Outdoors,764.65
+PROD00287,Makeup Brush Set Basic 6000,Automotive,347.93
+PROD00291,Wireless Earbuds Plus 5000,HEALTH & BEAUTY,516.8
+PROD00263,Blender Elite 5000,Electronics,39.49
+PROD00394,Deep Work Basic 8000,Electronics,517.9
+PROD00151,Bluetooth Speaker Elite 7000,Automotive,653.6
+PROD00267,Makeup Brush Set Lite 7000,Home & Kitchen,473.28
+PROD00416,LEGO Set Lite 4000,Electronics,1089.15
+PROD00039,Garden Hose Basic 5000,home & kitchen,1243.85
+PROD00343,Vacuum Cleaner Max 4000,Office Supplies,1322.16
+PROD00199,Fertilizer Bag Lite 5000,Office Supplies,474.85
+PROD00281,,Office Supplies,873.93
+PROD00147,Foam Cleanser Elite 3000,Garden & Tools,974.58
+PROD00229,Pruning Shears Elite 5000,Clothing,138.04
+PROD00148,Jump Starter Basic 7000,Garden & Tools,116.7
+PROD00335,Resistance Bands Lite 1000,Sports & Outdoors,877.28
+PROD00311,Mechanical Keyboard Elite 8000,Electronics,417.27
+PROD00124,System Design Interview Lite 2000,Electronics,806.26
+PROD00450,Paper Shredder Plus 3000,Sports & Outdoors,994.52
+PROD00097,Electric Toothbrush Pro 1000,HEALTH & BEAUTY,753.16
+PROD00144,Data Engineering Handbook Basic 6000,Garden & Tools,815.38
+PROD00240,Notebook Set Lite 8000,CLOTHING,1002.26
+PROD00297,Hair Dryer Lite 4000,Automotive,
+PROD00098,Car Phone Mount Elite 7000,OFFICE SUPPLIES,621.46
+PROD00465,Jump Rope Elite 4000,Electronics,554.87
+PROD00383,Coffee Maker Plus 3000,Home & Kitchen,493.41
+PROD00123,Non-stick Pan Plus 9000,Home & Kitchen,1086.81
+PROD00184,Machine Learning Basics Elite 7000,Health & Beauty,297.28
+PROD00203,Toaster Oven Max 5000,Toys & Games,1362.3
+PROD00247,Vitamin D Supplement Lite 2000,Toys & Games,-99.99
+PROD00334,The Pragmatic Programmer Max 5000,Sports & Outdoors,1382.42
+PROD00324,Clean Code Elite 3000,HEALTH & BEAUTY,1051.25
+PROD00384,SQL Performance Tuning Pro 6000,Automotive,453.27
+PROD00411,4K Smart TV Pro 3000,HEALTH & BEAUTY,463.85
+PROD00432,Sneakers Pro 3000,Automotive,1258.31
+PROD00308,Seat Cushion Basic 5000,HOME & KITCHEN,1038.17
+PROD00126,LEGO Set Elite 7000,Health & Beauty,1233.14
+PROD00330,Cable Management Kit Max 9000,Electronics,
+PROD00224,The Pragmatic Programmer Plus 1000,Clothing,994.97
+PROD00468,Dash Camera Plus 7000,Office Supplies,1268.6
+PROD00220,Monitor Stand Lite 4000,CLOTHING,1043.78
+PROD00130,Paper Shredder Max 4000,Clothing,1188.58
+PROD00457,Foam Cleanser Basic 5000,Sports & Outdoors,1239.6
+PROD00313,Air Fryer Plus 4000,BOOKS,956.08
+PROD00382,Athletic Socks Plus 6000,Automotive,1198.64
+PROD00412,Cotton T-Shirt Pro 4000,Books,1234.63
+PROD00325,Yoga Mat Pro 6000,Office Supplies,1258.19
+PROD00458,Car Phone Mount Basic 7000,Clothing,432.84
+PROD00490,Standing Desk Basic 1000,Electronics,316.06
+PROD00295,,Electronics,1471.78
+PROD00400,Stapler Elite 6000,Toys & Games,847.72
+PROD00371,LED Monitor Basic 4000,Toys & Games,348.66
+PROD00332,Hooded Sweatshirt Elite 4000,Office Supplies,861.47
+PROD00113,,OFFICE SUPPLIES,632.38
+PROD00180,Desk Lamp Max 1000,Home & Kitchen,1008.7
+PROD00336,LEGO Set Elite 3000,Health & Beauty,891.69
+PROD00370,Notebook Set Max 2000,Sports & Outdoors,320.91
+PROD00361,USB-C Hub Max 6000,Toys & Games,506.9
+PROD00315,Hiking Backpack Plus 7000,Books,273.95
+PROD00152,Polo Shirt Lite 8000,Office Supplies,1495.78
+PROD00393,Knife Set Elite 5000,Automotive,225.49
+PROD00234,Atomic Habits Plus 7000,CLOTHING,393.8
+PROD00487,Shampoo & Conditioner Pro 4000,HOME & KITCHEN,1381.58
+PROD00378,Jump Starter Lite 1000,HEALTH & BEAUTY,1140.37
+PROD00165,Yoga Mat Elite 3000,Office Supplies,331.19
+PROD00318,Car Phone Mount Max 9000,Books,
+PROD00137,Electric Toothbrush Plus 3000,Health & Beauty,
+PROD00198,Car Vacuum Elite 7000,Office Supplies,308.16
+PROD00259,Fertilizer Bag Pro 9000,Garden & Tools,366.79
+PROD00233,Vacuum Cleaner Elite 1000,Sports & Outdoors,-1.0
+PROD00116,LEGO Set Lite 4000,Health & Beauty,109.14
+PROD00121,Portable Charger Elite 2000,books,384.38
+PROD00381,Wireless Earbuds Elite 8000,Office Supplies,421.87
+PROD00225,Resistance Bands Pro 5000,Office Supplies,1223.51
+PROD00439,Fertilizer Bag Plus 9000,Automotive,194.24
+PROD00368,LED Headlights Max 8000,Toys & Games,582.07
+PROD00128,Car Wax Kit Lite 9000,Sports & Outdoors,730.72
+PROD00514,Machine Learning Basics Basic 3000,Electronics,58.15
+PROD00286,Action Figure Basic 9000,Sports & Outdoors,587.5
+PROD00472,Cargo Shorts Max 5000,automotive,335.42
+PROD00448,Car Wax Kit Elite 3000,electronics,831.67
+PROD00108,Car Vacuum Pro 4000,Clothing,314.13
+PROD00404,Cloud Architecture Patterns Plus 6000,Sports & Outdoors,761.22
+PROD00356,Action Figure Pro 5000,Electronics,936.2
+PROD00134,The Pragmatic Programmer Elite 1000,AUTOMOTIVE,1324.53
+PROD00397,Shampoo & Conditioner Lite 9000,Garden & Tools,129.6
+PROD00045,Resistance Bands Plus 9000,Sports & Outdoors,
+PROD00503,Knife Set Basic 1000,Automotive,1242.35
+PROD00066,Building Blocks Pro 7000,Clothing,181.61
+PROD00284,Clean Code Max 1000,Sports & Outdoors,666.78
+PROD00086,Model Kit Pro 2000,sports & outdoors,355.89
+PROD00243,,Clothing,1332.84
+PROD00187,Essential Oil Set Lite 2000,Health & Beauty,1362.88
+PROD00419,Pruning Shears Max 1000,Electronics,1166.9
+PROD00160,Standing Desk Max 8000,Books,699.56
+PROD00013,Non-stick Pan Max 3000,OFFICE SUPPLIES,455.75
+PROD00036,Puzzle Set Basic 1000,Clothing,806.11
+PROD00029,Compost Bin Basic 5000,Clothing,1222.29
+PROD00171,Portable Charger Plus 4000,Automotive,825.33
+PROD00143,Knife Set Max 1000,Sports & Outdoors,587.76
+PROD00435,Trekking Poles Elite 8000,Toys & Games,613.76
+PROD00007,Makeup Brush Set Plus 3000,Sports & Outdoors,
+PROD00222,Cargo Shorts Basic 4000,Home & Kitchen,
+PROD00096,LEGO Set Elite 9000,Garden & Tools,262.5
+PROD00052,Athletic Socks Pro 5000,TOYS & GAMES,757.67
+PROD00241,Portable Charger Elite 1000,Home & Kitchen,488.59
+PROD00406,Building Blocks Plus 9000,Office Supplies,938.24
+PROD00352,Athletic Socks Max 5000,Toys & Games,1205.13
+PROD00517,Vitamin D Supplement Elite 5000,Office Supplies,1259.73
+PROD00179,Weed Puller Plus 2000,TOYS & GAMES,215.63
+PROD00042,Athletic Socks Elite 4000,Toys & Games,1371.19
+PROD00505,Jump Rope Pro 1000,Books,51.5
+PROD00423,Air Fryer Basic 2000,Sports & Outdoors,1261.11
+PROD00207,Shampoo & Conditioner Basic 3000,Clothing,1046.05
+PROD00283,Vacuum Cleaner Plus 3000,Office Supplies,1136.54
+PROD00359,Soil Tester Pro 8000,Books,1271.99
+PROD00255,Cycling Helmet Plus 4000,Health & Beauty,1123.78
+PROD00449,Pruning Shears Pro 8000,Home & Kitchen,562.02
+PROD00005,Trekking Poles Basic 1000,Office Supplies,667.15
+PROD00257,Electric Toothbrush Pro 2000,Electronics,1287.88
+PROD00489,Soil Tester Basic 2000,Toys & Games,441.43
+PROD00101,Bluetooth Speaker Max 9000,Health & Beauty,801.55
+PROD00227,Essential Oil Set Elite 4000,Home & Kitchen,1142.7
+PROD00500,Ergonomic Chair Lite 3000,Clothing,1499.33
+PROD00214,Python for Data Science Lite 4000,Automotive,400.5
+PROD00091,Portable Charger Max 7000,CLOTHING,627.16
+PROD00172,Sneakers Elite 3000,Home & Kitchen,105.29
+PROD00099,Plant Pots Elite 2000,Home & Kitchen,1306.56
+PROD00293,Knife Set Basic 6000,Electronics,322.17
+PROD00216,Building Blocks Max 9000,Books,956.73
+PROD00062,Hooded Sweatshirt Elite 1000,Health & Beauty,1012.42
+PROD00048,Car Vacuum Plus 3000,Health & Beauty,1315.21
+PROD00033,Stand Mixer Basic 9000,Clothing,468.84
+PROD00268,Tire Inflator Max 2000,Books,983.58
+PROD00328,Floor Mats Plus 9000,Sports & Outdoors,806.68
+PROD00201,LED Monitor Elite 8000,Automotive,327.07
+PROD00486,,Automotive,732.27
+PROD00028,LED Headlights Lite 3000,sports & outdoors,1323.24
+PROD00425,Trekking Poles Pro 2000,Electronics,1334.93
+PROD00231,Smart Watch Lite 4000,Garden & Tools,556.3
+PROD00261,Mechanical Keyboard Lite 8000,Books,620.31
+PROD00379,Soil Tester Lite 2000,Home & Kitchen,1451.83
+PROD00289,Plant Pots Elite 1000,Sports & Outdoors,1392.69
+PROD00163,Air Fryer Plus 3000,Health & Beauty,1064.89
+PROD00392,Winter Coat Pro 8000,Health & Beauty,-99.99
+PROD00462,Sneakers Pro 5000,Health & Beauty,219.63
+PROD00139,Raised Bed Kit Max 4000,Home & Kitchen,1353.24
+PROD00063,Coffee Maker Basic 6000,Books,273.79
+PROD00136,Model Kit Plus 8000,Health & Beauty,119.09
+PROD00129,Plant Pots Max 3000,CLOTHING,504.43
+PROD00519,Weed Puller Pro 9000,Health & Beauty,43.3
+PROD00009,Fertilizer Bag Elite 6000,Health & Beauty,1238.16
+PROD00327,Makeup Brush Set Lite 9000,Books,1441.6
+PROD00507,Vitamin D Supplement Max 9000,Office Supplies,514.56
+PROD00065,Yoga Mat Basic 6000,Clothing,349.01
+PROD00301,Portable Charger Basic 8000,Toys & Games,685.41
+PROD00015,Cycling Helmet Basic 9000,Toys & Games,89.92
+PROD00157,Vitamin D Supplement Plus 3000,Automotive,-1.0
+PROD00041,,Home & Kitchen,465.84
+PROD00380,Whiteboard Plus 1000,Books,662.96
+PROD00501,Wireless Earbuds Lite 4000,Office Supplies,1155.55
+PROD00440,Notebook Set Max 9000,ELECTRONICS,299.44
+PROD00217,Protein Powder Basic 1000,Clothing,490.81
+PROD00410,Standing Desk Pro 9000,Books,692.61
+PROD00280,Cable Management Kit Basic 4000,Home & Kitchen,882.87
+PROD00474,Machine Learning Basics Basic 3000,Clothing,1311.85
+PROD00470,Desk Lamp Lite 2000,Toys & Games,267.62
+PROD00338,Car Wax Kit Pro 8000,Automotive,83.66
+PROD00237,Sunscreen SPF50 Pro 9000,TOYS & GAMES,369.62
+PROD00208,Dash Camera Plus 9000,Clothing,577.89
+PROD00213,Stand Mixer Max 2000,health & beauty,1040.37
+PROD00296,Card Game Pro 7000,Sports & Outdoors,976.36
+PROD00498,Floor Mats Elite 3000,HEALTH & BEAUTY,
+PROD00252,Cotton T-Shirt Basic 4000,Home & Kitchen,147.8
+PROD00363,Rice Cooker Pro 3000,Garden & Tools,1463.15
+PROD00499,Garden Hose Max 9000,GARDEN & TOOLS,897.77
+PROD00304,Clean Code Basic 6000,Books,563.44
+PROD00351,USB-C Hub Pro 8000,Office Supplies,434.05
+PROD00270,Ergonomic Chair Pro 4000,Health & Beauty,27.48
+PROD00202,Cotton T-Shirt Lite 9000,Clothing,640.72
+PROD00162,Sneakers Pro 4000,Books,987.14
+PROD00044,Clean Code Basic 2000,Home & Kitchen,494.14
+PROD00218,Tire Inflator Basic 8000,Electronics,408.64
+PROD00402,Sneakers Basic 3000,Office Supplies,210.89
+PROD00191,Action Camera Lite 4000,Office Supplies,1334.35
+PROD00310,Stapler Max 6000,Garden & Tools,975.06
+PROD00260,Ergonomic Chair Max 6000,Automotive,66.27
+PROD00106,Doll House Basic 9000,Clothing,219.4
+PROD00054,The Pragmatic Programmer Pro 6000,Home & Kitchen,1289.06
+PROD00390,Ergonomic Chair Basic 7000,Clothing,99.46
+PROD00002,Athletic Socks Pro 8000,Books,377.08
+PROD00481,Mechanical Keyboard Pro 2000,Books,1126.89
+PROD00360,Notebook Set Lite 7000,Automotive,99.21
+PROD00050,Paper Shredder Max 3000,Office Supplies,592.73
+PROD00420,Paper Shredder Elite 7000,ELECTRONICS,1294.12
+PROD00081,LED Monitor Pro 4000,HEALTH & BEAUTY,781.71
+PROD00206,Board Game Basic 4000,Sports & Outdoors,120.99
+PROD00035,Pull-up Bar Plus 9000,BOOKS,775.41
+PROD00431,Mechanical Keyboard Lite 8000,Clothing,727.86
+PROD00264,Machine Learning Basics Plus 3000,Garden & Tools,544.47
+PROD00428,LED Headlights Elite 3000,Home & Kitchen,-1.0
+PROD00455,Jump Rope Max 3000,Home & Kitchen,332.74
+PROD00444,Deep Work Plus 5000,GARDEN & TOOLS,871.49
+PROD00367,Essential Oil Set Pro 2000,Home & Kitchen,133.13
+PROD00092,Running Shoes Max 3000,Books,646.83
+PROD00340,Whiteboard Lite 4000,Health & Beauty,638.45
+PROD00516,Card Game Basic 5000,health & beauty,660.63
+PROD00053,Knife Set Elite 9000,Office Supplies,295.62
+PROD00346,Board Game Max 4000,Sports & Outdoors,321.57
+PROD00265,Yoga Mat Elite 7000,Office Supplies,1176.89
+PROD00242,Hooded Sweatshirt Pro 5000,Clothing,1347.48
+PROD00014,Clean Code Max 9000,Electronics,756.92
+PROD00316,Board Game Pro 2000,Automotive,1059.47
+PROD00089,Compost Bin Basic 5000,Electronics,926.74
+PROD00388,LED Headlights Lite 9000,Home & Kitchen,536.84
+PROD00274,System Design Interview Lite 8000,Garden & Tools,64.16
+PROD00167,Electric Toothbrush Elite 7000,Electronics,729.07
+PROD00329,Soil Tester Elite 8000,GARDEN & TOOLS,735.8
+PROD00483,Rice Cooker Plus 6000,Garden & Tools,690.73
+PROD00135,Hiking Backpack Elite 3000,Office Supplies,702.66
+PROD00307,Sunscreen SPF50 Plus 6000,Electronics,753.53
+PROD00485,Cycling Helmet Plus 6000,Home & Kitchen,146.09
+PROD00276,,Garden & Tools,931.56
+PROD00320,Cable Management Kit Plus 2000,Automotive,259.56
+PROD00244,System Design Interview Lite 7000,Health & Beauty,491.97
+PROD00055,Trekking Poles Plus 3000,Clothing,1017.34
+PROD00364,Data Engineering Handbook Lite 7000,Clothing,1226.55
+PROD00051,Wireless Earbuds Plus 6000,Automotive,832.73
+PROD00497,Makeup Brush Set Lite 9000,electronics,733.96
+PROD00175,Foam Roller Elite 2000,Garden & Tools,1174.24
+PROD00446,Remote Control Car Lite 1000,Books,969.24
+PROD00190,Stapler Elite 9000,Garden & Tools,983.26
+PROD00308,Seat Cushion Basic 5000,HOME & KITCHEN,1038.17
+PROD00464,Deep Work Elite 3000,home & kitchen,1197.8
+PROD00188,Jump Starter Plus 5000,Automotive,1139.51
+PROD00476,Remote Control Car Max 7000,Garden & Tools,399.28
+PROD00170,Desk Organizer Elite 8000,Books,1160.57
+PROD00059,Sprinkler Head Plus 4000,Automotive,662.17
+PROD00475,Resistance Bands Max 9000,TOYS & GAMES,379.0
+PROD00049,Fertilizer Bag Lite 1000,Clothing,159.23
+PROD00345,Pull-up Bar Plus 5000,AUTOMOTIVE,990.6
+PROD00236,Board Game Elite 5000,Automotive,1319.49
+PROD00253,Knife Set Basic 4000,clothing,1498.34
+PROD00022,Polo Shirt Elite 8000,Electronics,394.78
+PROD00314,Atomic Habits Basic 2000,Electronics,
+PROD00460,,Health & Beauty,1455.06
+PROD00161,Portable Charger Plus 3000,Electronics,1085.76
+PROD00277,Vitamin D Supplement Max 6000,Electronics,847.7
+PROD00192,Running Shoes Basic 1000,Books,870.73
+PROD00386,,ELECTRONICS,199.73
+PROD00414,Python for Data Science Pro 7000,Electronics,631.39
+PROD00492,Winter Coat Pro 6000,Health & Beauty,1363.19
+PROD00344,Clean Code Basic 7000,Sports & Outdoors,1325.06
+PROD00309,Compost Bin Elite 7000,Garden & Tools,1047.51
+PROD00131,Mechanical Keyboard Basic 5000,Automotive,680.22
+PROD00100,Stapler Plus 6000,Sports & Outdoors,949.33
+PROD00373,Rice Cooker Plus 1000,Clothing,407.22
+PROD00088,Seat Cushion Elite 2000,Health & Beauty,1440.03
+PROD00459,Pruning Shears Pro 6000,Toys & Games,1391.11
+PROD00331,LED Monitor Lite 6000,Home & Kitchen,235.6
+PROD00215,Jump Rope Pro 1000,Office Supplies,1408.96
+PROD00467,Shampoo & Conditioner Elite 9000,Office Supplies,837.83
+PROD00122,Cotton T-Shirt Basic 2000,Clothing,20.9
+PROD00021,Smart Watch Basic 2000,BOOKS,984.82
+PROD00072,Denim Jacket Pro 3000,Garden & Tools,247.07
+PROD00107,Hair Dryer Lite 2000,Automotive,1039.95
+PROD00271,Action Camera Elite 2000,Home & Kitchen,1147.93
+PROD00436,Card Game Lite 9000,Sports & Outdoors,496.37
+PROD00103,Instant Pot Elite 5000,Sports & Outdoors,910.81
